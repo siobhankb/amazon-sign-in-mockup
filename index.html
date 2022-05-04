@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon Pretend</title>
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body></body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Amazon Pretend</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="https://kit.fontawesome.com/e83e0a1875.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="central_area">
+            <div class="main_content">
+                <div>
+                    <!-- this is the amazon logo -->
+                    <img src="images/boycott_amazon.png" alt="boycott amazon">
+                </div>
+                <div class="sign_in_box">
+                    <!-- this is the main sign-in section -->
+                    Sign In
+                    <!-- this is where people will enter their user name & PW -->
+                    <form action="/action_page.php" method="get">
+                        <label for="uname">Email or mobile phone number</label>
+                        <input type="text" id="uname" name="email_phone" placeholder="your-name@email.com">
+                        <label for="pword">Password</label>
+                        <input type="text" id="pword" name="password" placeholder="Enter Password">
+                        <!-- Continue button -->
+                        <input type="submit" value="Continue">
+                    </form>
+                    <div>
+                        <!-- here there is a collapsible list for "need help" -->
+                        <!--<span class="help"><i class="fa-solid fa-caret-right"></i> Need help?</span> -->
+                        <details>
+                            <summary class="help">Need help?</summary>
+                                <ul class="help_list">
+                                    <li><a href="http://google.com">Forgot your password?</a></li>
+                                    <li><a href="http://google.com">Other issues with Sign-In</a></li>
+                                </ul>
+                        </details>
+                    </div>
+                <!-- end of main sign-in section (bottom of box w grey line) -->
+                </div>
+                <!-- New to Amazon? -->
+                <!-- Brian said it's hard to get the text inside a line... -->
+                <div class="new-to-AZ">New to Amazon Boycotts?</div>
+                <div>
+                    <!-- grey button with "create your amazon account" -->
+                    <button class="regis_button">Register Your Boycott Amazon Account</button>
+                </div>
+                <!-- end of main content container -->
+            </div>
+            <!-- end of central area container; begin footer after horiz line-->
+        </div>    
+    </body>
+    <hr>
+    <footer>
+        <div class="foot_links">
+            <a href="http://google.com" class="help">Conditions of use</a>
+            <a href="http://google.com" class="help">Privacy Policy</a>
+            <a href="http://google.com" class="help">Help</a></li>
+        </div>
+        <br>
+        <!-- &copy  -->
+        <div id="copywrite">&copy April 2, 2022, Amazon Labor Union
+    </footer>
+    </div>
 </html>

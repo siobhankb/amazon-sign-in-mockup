@@ -1,6 +1,143 @@
-html {
-  background-color: aquamarine;
+img {
+  background-position: -5px -130px;
+  height: 60px;
+  width: 110px;
 }
-body {
-  background-color: darksalmon;
+
+form {
+  margin: 10px;
+}
+
+label[for=uname], label[for=pword] {
+  font-size:14px;
+  font-weight: bold;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  outline: none;
+    border:1px solid orangered;
+    box-shadow: 0px 0px 5px 3px orange;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background: #f0c14b;
+  border-width: 1px;
+  border-color: #a88734 #9c7e31 #846a29 #a88734;
+  border-radius: 5px;
+  height: 35px;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #f6ca5c;
+  cursor: pointer;
+}
+
+.central_area{
+  display: flex;
+  justify-content: center;
+}
+
+.main_content {
+  width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.sign_in_box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.help {
+  color: #0066c0;
+  font-size: 12px;
+}
+
+.help:hover {
+  color:rgb(211, 125, 13);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.help_list li{
+  list-style-type: none; 
+}
+
+.help_list a{
+  text-align: start;
+  color: #0066c0;
+  font-size: 12px;
+  text-decoration: none; 
+}
+
+.help_list a:hover {
+  color:rgb(211, 125, 13);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.regis_button {
+  background: linear-gradient(to top, #dfe1e3 0%, #dcdddf 52%, #ebebeb 100%);
+  margin: 2px 0px 10px 0px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 350px;
+  height: 30px;
+}
+
+.regis_button:hover {
+  background: #dedee0;
+  cursor: pointer;
+}
+
+.new-to-AZ {
+  color: gray;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  padding-top:10px;
+}
+
+.foot_links{
+  display: flex;
+  justify-content: center;
+}
+
+.foot_links a{
+  display:flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-decoration: none;
+  margin: 15px;
+}
+
+#copywrite {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  color:slategray
 }
